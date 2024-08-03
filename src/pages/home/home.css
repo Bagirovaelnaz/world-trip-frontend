@@ -1,0 +1,55 @@
+* {
+  font-family: "Gothic A1", sans-serif;
+}
+.home-section {
+  margin-top: 100px;
+  margin-left: 50px;
+
+}
+.yazi-1 {
+  font-size: 63px;
+}
+
+#yazi-2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 27px;
+}
+#yasil {
+  color: #4cdc49;
+}
+
+.button-22 {
+  align-items: center;
+  background-color: #4a3aff;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "RM Neue", sans-serif;
+  font-size: 21px;
+  line-height: 1.15;
+  margin-top: 10px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: none;
+  transition: color 0.13s ease-in-out, background 0.13s ease-in-out,
+    opacity 0.13s ease-in-out, box-shadow 0.13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-22:active {
+  background-color: #006ae8;
+}
+
+.button-22:hover {
+  background-color: #1c84ff;
+}
+

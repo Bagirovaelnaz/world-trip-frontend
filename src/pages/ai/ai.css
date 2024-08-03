@@ -1,0 +1,145 @@
+
+.ai p{
+text-align: start;
+ }
+
+ .main-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.greeting-section {
+    text-align: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.greeting-section h1 {
+    color: #333;
+}
+
+.intro-text {
+    color: #666;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.planner-form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 3px;
+    color: #333;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.form-input,
+.form-select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-right: 40px;
+
+}
+
+.section-title {
+    text-align: center;
+    color: #333;
+}
+
+.gems-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gem-card {
+    background-color: #fff;
+    width: 30%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s;
+    
+}
+
+.gem-card img {
+    width: 100%;
+    height: auto;
+}
+
+.gem-title {
+    color: #333;
+    margin: 10px 0;
+}
+
+.gem-description {
+    color: #666;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.gem-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.gem-button:hover {
+    background-color: #45a049;
+}
+
+.gem-card:hover {
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width: 768px) {
+    .gem-card {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .gem-card {
+        width: 100%;
+    }
+}
+
+#ai-submit{
+    margin-right: 100px;
+}

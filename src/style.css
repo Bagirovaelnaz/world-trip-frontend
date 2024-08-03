@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none !important;
+}
+a, a:visited, a:hover, a:active{
+    color: inherit;
+}
+
+body {
+  background: radial-gradient(
+      circle at 85% 25%,
+      rgba(135, 206, 250, 0.4),
+      transparent 40%
+    ),
+    radial-gradient(circle at 88% 35%, rgba(255, 215, 0, 0.4), transparent 40%),
+    /* Light yellow */
+      radial-gradient(
+        circle at 90% 45%,
+        rgba(147, 112, 219, 0.4),
+        transparent 40%
+      ),
+    /* Purple */
+      radial-gradient(
+        circle at 87% 55%,
+        rgba(0, 191, 255, 0.4),
+        transparent 40%
+      ),
+    radial-gradient(
+      circle at 85% 65%,
+      rgba(135, 206, 250, 0.4),
+      transparent 40%
+    ),
+    radial-gradient(circle at 90% 75%, rgba(255, 215, 0, 0.4), transparent 40%),
+    /* Light yellow */
+      radial-gradient(
+        circle at 90% 85%,
+        rgba(147, 112, 219, 0.6),
+        transparent 50%
+      ),
+    /* More Purple */
+      radial-gradient(
+        circle at 88% 95%,
+        rgba(147, 112, 219, 0.6),
+        transparent 50%
+      ),
+    /* More Purple */ white;
+  margin: 0;
+  
+}
